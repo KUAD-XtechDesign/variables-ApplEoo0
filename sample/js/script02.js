@@ -17,15 +17,18 @@ $(function(){
 
   let txt1 = "ここになにか文章がある。この文章はtxt1という変数で定義されている";
   let txt2 = "さらにここになにか文章がある。この文章はtxt2という変数で定義されている";
+  let txt3 = "こんにちは";
+
   let num1 = 100;
   let num2 = 50;
+  let num3 = "50";
 
   $("#button04").on("click",function(){
-    $("#content").text(txt1);
+    $("#content").text(txt1 + txt2 + txt3);
   })
 
   $("#button05").on("click",function(){
-    $("#content").text(num1 + num2);
+    $("#content").text(num1 + num2 + num3);
   })
   
 

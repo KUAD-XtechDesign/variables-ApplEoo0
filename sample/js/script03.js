@@ -17,6 +17,9 @@ $(function(){
 
   $("#button04").on("click",function(){
     let random_num = Math.random() * 10;
+
+    let random_floor_num = Math.floor(random_num);
+
     $("#content").text(Math.floor(random_num));
   })
 
